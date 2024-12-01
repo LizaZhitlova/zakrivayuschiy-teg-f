@@ -1,17 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-:root{
-
-    --main-font:"Inter-Variable",sans-serif;
-    --accent-font:"PressStart2P",sans-serif;
-    --font-size:18px;
-    --card-font-weigth:400px;
-    --card-title-font-weigth:700;
-    --accent-color:#000;
-    --bg-color:#FFF;
-    --hover-color:rgba(0, 0, 0, 1);
-    --background-image:repeating-linear-gradient(to right,#d3d3d3, transparent 2px),
-    repeating-linear-gradient(to bottom,#d3d3d3, transparent 2px),
-    repeating-linear-gradient(to bottom,#e7e7e7 0.01%,#1a1a1a);
-    --sparks-color:rgba(255, 0, 0, 1);
-    --contour-color:#000;
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
+  --font-size: 18px;
+  --card-font-weight: 400;
+  --card-title-font-weight: 700;
+  --accent-color: #000;
+  --bg-color: #fff;
+  --background-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      transparent 2px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
+    repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --sparks-color: rgba(255, 0, 0, 1);
+  --contour-color: #000;
+  --hover-color: rgba(0, 0, 0, 0.6);
+  --button-color: #fff;
+  --dialog-color: #fff;
 }
