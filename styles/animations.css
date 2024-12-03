@@ -12,3 +12,33 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes slideInFromLeft {
+  from {
+    left: -14px;
+  }
+
+  to {
+    left: -10px;
+  }
+}
+
+@keyframes scalingHeartFromCenter {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes sparksappearance {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
