@@ -74,9 +74,7 @@
   line-height: 14px;
   padding-left: 18px; /*для ширины 375 */
 }
-.neon{
-   padding:0;
-}
+ 
 .theme-menu__button {
   border: none;
   background-color: transparent;
